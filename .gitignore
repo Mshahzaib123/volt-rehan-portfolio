@@ -1,0 +1,23 @@
+node_modules
+dist
+.netlify
+
+# local env files
+.env
+.env.*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor/OS
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# TypeScript build info (project references)
+*.tsbuildinfo
